@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.3.0-web/css/all.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="top">
+            <h1>TODO</h1>
+            <button id="add">+</button>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h1>TODO</h1>
+                    <input class="inp1" type="text">
+                    <input class="inp2" type="text">
+                    <button class="btnAdd">add</button>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="left">
+                <ul>
+                    <li>
+                        <div class="circles violetone"></div>work
+                    </li>
+                    <li>
+                        <div class="circles blueone"></div>study
+                    </li>
+                    <li>
+                        <div class="circles redone"></div>entertainment
+                    </li>
+                    <li>
+                        <div class="circles lightblueone"></div>family
+                    </li>
+                </ul>
+                <input class="hide" type="checkbox" name="" id="hidedone">
+                <label class="hides" for="hidedone">Hide done task</label>
+            </div>
+            <div class="right">
+
+            </div>
+            <div id="myModal2" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h1>Edit</h1>
+                    <input class="inpEdit1" type="text">
+                    <input class="inpEdit2" type="text">
+                    <button class="btnEdit">Edit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
